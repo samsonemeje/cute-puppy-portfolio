@@ -17,6 +17,10 @@ img {
     height: auto;
 }
 
+.no-opacity:hover {
+    opacity: 0.7;
+}
+
 hr {
     height: 3px;
     color: #BCBBBB;
@@ -60,9 +64,30 @@ a:hover {
     margin-bottom: 50px;
 }
 
-footer {
-    height: 150px;
-    width: 100%;
-    background-color: #535238;
-    color: #FFFFFF;
+.social-media-icons ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media-icons a {	
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px;
+}
+
+.social-media-icons a:nth-child(1) i {
+	color: #3B5998;
+}
+
+.social-media-icons a:nth-child(2) i {
+	color: #4099FF;
+}
+
+.social-media-icons a:nth-child(3) i {
+	color: #f46f30;
+}
+
+.social-media-icons a i:hover{
+	color: black;
 }
